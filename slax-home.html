@@ -1,0 +1,796 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<meta name="keywords" content="slax,dj slax,slax site,slax music,slax hardcore,slax j-core,slax speedcore,slax lolicore,lolitek,nerdcore,lolicore,slax ga, slax moe">
+<meta name="description" content="Energetic and melodic core/tek music based on J-pop and K-pop ¬ ͜ ¬">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta property="og:title" content="Slax">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://slax.moe">
+<meta property="og:image" content="meli_favi.png">
+<meta property="og:site_name" content="Slax">
+<meta property="og:description" content="Slax Official Site">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@slax23">
+<meta name="twitter:title" content="Slax">
+<meta name="twitter:description" content="Slax Official Site">
+<meta name="twitter:image" content="meli_favi.png">
+
+<title>Slax ★ is now moe!</title>
+<title id="SlaxLogo">Slax logo</title>
+<link rel="shortcut icon" href="meli_favi.png"/>
+  
+<style type="text/css"> 
+ @import url('https://fonts.googleapis.com/css?family=Lato:900&display=swap');
+   
+   
+    a, a:hover, a:active a:visited {
+        text-decoration:none!important;
+        color:#FFFFFF;
+    } 
+    
+    html {
+        scroll-behavior:smooth;
+    }
+
+    body {
+        background:#FF1F59;
+        color:#FF1F59;
+        font-family:'Lato', sans-serif;
+        font-weight:900;
+        overflow-x:hidden; 
+        -webkit-animation:0.5s linear loadfade;
+        animation:0.5s linear loadfade;
+    } 
+    
+    @-webkit-keyframes loadfade {
+        0%, 50% {opacity:0;}
+        100% {opacity:1;}
+    }
+    @-o-keyframes loadfade {
+        0%, 50% {opacity:0;}
+        100% {opacity:1;}
+    }
+    @-moz-keyframes loadfade {
+        0%, 50% {opacity:0;}
+        100% {opacity:1;}
+    }
+    @keyframes loadfade {
+        0%, 50% {opacity:0;}
+        100% {opacity:1;}
+    }
+ 
+    .tilt, #works div, #about div {
+        transform:rotate(-3deg);
+        -ms-transform:rotate(-3deg);
+        -webkit-transform:rotate(-3deg);
+    }
+
+    .tilt div {
+        position:relative;
+    }
+    
+    h1, h2 {
+        background:#FFFFFF;
+        text-align:center;
+    }
+    
+    h1 {
+        margin-top:17vh;
+        padding:1vw 0;
+        font-size:calc(6vmin + 1em);
+    }
+    
+    h2 {
+        margin-top:5vmin;
+        font-size:calc(4vmin + 1em);
+    }
+    
+    .sp, .spancont, #about span {
+        transform:translateZ(0); /*antialias trigger, only for Chrome (hw accel.)*/
+    }
+    
+    #topban {
+        position:fixed;
+        width:4.7em;
+        top:4vmin;
+        right:4vmin;
+        padding:2vmin;
+        z-index:99;
+        background:#FF1F59;
+    }
+    
+    #topban span {
+        display:block;
+        float:right;
+        clear:both;
+        text-align:right;
+        padding:0.15vh 0.5vh 0.15vh 0;
+        margin:0.15vh 0 0.15vh 0.15vh;
+        width:4.5em; /*edit this for longer words*/
+        color:#FFFFFF;
+        transition:0.2s;
+    }
+    
+    #logo {
+        position:relative;
+        display:block;
+        margin:auto;
+        margin-top:18vh;
+        margin-bottom:6vmin;
+        width:35vmin;
+    }
+    
+    #socialline {
+        display:flex;
+        justify-content:center;
+        align-items:center; 
+        padding:1vw 0;
+    }
+    
+    #socialline a {
+        width:15vmin;
+        max-width:300px;
+        margin:0 1.5vmin 0 1.5vmin;
+        transition:0.2s;
+    }
+    
+    #socialline a:hover {
+        margin-top:-3vmin;
+        padding-bottom:3vmin;
+    }
+    
+    #floor {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+    }
+   
+    .sp {
+        width:25vmin;
+        margin:0 2vmin 0 2vmin;
+        height:50vw;
+    }
+   
+    .sp img {
+        position:relative;
+        width:100%;
+        padding-bottom:1vmin;
+    }
+
+    .sp span {
+        display:block;
+        position:relative;
+        text-align:center;
+        word-wrap:break-word;
+        height:auto;
+    }
+    
+    #sp_mid1 a:hover > span, #sp_mid2 a:hover > span {
+        color:#ff0182;
+        background-color:#000;
+    }  
+    
+    #sp_left a:hover > span {
+        color:#1969bf;
+        background-color:#ffe0ff;
+    }  
+    
+    #sp_right a:hover > span {
+        color:#d1fefe;
+        background-color:#00f;
+    }  
+    
+    .sp a:hover > span, #works a:hover > .spancont > span, #topban a:hover > span, #about a:hover {
+        background:#FFFFFF;
+        color:#FF1F59;
+    }
+    
+    #sp_mid1 {display:none;}
+    #sp_mid2 {display:inline;width:30vmin;height:55vmin;}
+    
+    #works, #about {
+        max-width:auto;
+        margin:auto;
+    }
+
+    #works img {
+        width:17vmin;
+        height:17vmin;
+        margin:1.5vmin 0 1.5vmin 0;
+        padding:0 3vmin;
+        object-fit:cover; 
+        -o-object-fit:cover;
+    }
+    
+    .spancont { /*for v-align of span*/
+        margin-top:1.5vmin;
+        position:absolute;
+        width:auto;
+        height:17vmin;
+    }
+    
+    .spancont span, #about span {
+        display:inline-block;
+    }
+    
+    .spancont span {
+        top:50%;
+        transform:translate(0,-50%);
+    }
+
+    .spancont span, .sp span, #about span {
+        position:relative;
+        width:auto;
+        line-height:1;
+        font-size:5vmin;
+        padding:5px;
+        color:#FFFFFF;
+        transition:0.2s;
+    }
+    
+    .sp span {
+        font-size:3.5vmin;
+    }
+    
+    #about span {
+        line-height:normal;
+    }
+   
+    #about a {
+       transition:0.2s;
+    }
+    
+    @media screen and (min-aspect-ratio: 7/8) {
+        .sp {
+            height:30vmin;
+        }
+        
+        #logo {
+            width:23vmin;
+            margin-top:8vh;
+        }
+        
+        #socialline a {
+            width:9vmin;
+        }
+        
+        #works, #about {
+            width:90vmin;
+            max-width:700px;
+        }
+        
+        #works img {
+            width:10vmin;
+            height:10vmin;
+        }
+        
+        #h1works {
+            margin-top:15vmin;
+        }
+        
+        h1 {
+            margin-top:10vmin;
+        }
+        
+        #sp_mid1 {display:none;}
+        #sp_mid2 {display:inline;width:30vmin;height:auto;}
+        
+        .spancont span, .sp span, #about span {
+            font-size:3.5vmin;
+        }
+        
+        .spancont {
+            height:10vmin;
+        }
+    }
+
+    @media screen and (min-aspect-ratio: 16/11) {
+        #h1sp {
+            width:130vmin;
+            margin-left:auto;
+            margin-right:auto;
+        }
+    
+        .sp {
+            width:30vmin;
+            margin:0 2vmin 0 2vmin;
+            height:auto;
+        }
+        
+        #sp_mid2 {display:inline;width:35vmin;height:auto;}
+    }
+
+    #mail {
+        font-size:calc(1.5vmin + 2vh);
+        text-align:center;
+    }
+    
+    #mail svg {
+        width:calc(1vmin + 2vh);
+        margin-bottom:-0.5vh;
+    }
+    
+    #bottom {
+        margin-top:23vh;
+        padding-top:12vh;
+        padding-bottom:2vmin;
+        text-align:center;
+        background:#FFFFFF;
+    }
+    
+    #bottom svg {
+        position:relative;
+        display:block;
+        margin:auto;
+        margin-bottom:5vmin;
+        width:25vmin;
+    }
+    
+    #bottom span {
+        display:inline-block;
+        color:#FF1F59;
+        font-size:1em;
+    }
+
+</style>
+</head>
+<body>
+
+<div id="topban">
+    <a href="#"><span>TOP</span></a>
+    <a href="#works"><span>WORKS</span></a>
+    <a href="#about"><span>ABOUT</span></a>
+</div>
+
+<svg aria-labelledby="SlaxLogo" role="img" id="logo" viewBox="0 0 100 100"><g stroke-width="1.32"><path d="M100 50c0 27.7-22.3 50-50 50S0 77.7 0 50 22.3 0 50 0s50 22.3 50 50z" style="isolation:auto;mix-blend-mode:normal;color:#000;opacity:1" color="#000" overflow="visible" fill="#fff" fill-rule="evenodd" paint-order="stroke fill markers"/><path d="M50 8.97A40.97 40.97 0 009.04 49.92 40.73 40.73 0 0019.4 77.13h3.08l-.42-.38A38.7 38.7 0 0150 11.2a38.72 38.72 0 0137.2 27.94l.14.46 2-1.15-.1-.28A40.99 40.99 0 0050 8.97zm3.29 27.2V57.17H25.06l1.3 2.24H55.51V44.46l8.24 14.28.38.65h10.8l-1.3-2.23h-8.23L55.38 39.7l-.13-.16zm22.73 5.48c-.05 0-.08 0-.1.02-.35.19-.56 4.5-.72 4.86-.16.35-3.27 3.35-3.19 3.74.08.38 4.11 1.91 4.4 2.18.3.26 2.18 4.14 2.57 4.18.4.05 3.1-3.31 3.44-3.5.34-.2 4.61-.8 4.78-1.16.16-.36-2.2-3.97-2.28-4.35-.08-.39.67-4.63.38-4.9-.3-.26-4.45.87-4.85.82-.36-.04-3.73-1.82-4.43-1.89zM29.6 63.95l.13.22.18.3 1.47 2.56h5.25v3.87a3.97 3.97 0 107.96 0v-3.87h.27a1.54 1.54 0 100-3.08H30.56zm24.57 0l.13.22.18.3 1.47 2.56h5.25v3.87a3.97 3.97 0 107.96 0v-3.87h.27a1.54 1.54 0 100-3.08H55.13zm0 17.63a.74.74 0 00-.48.18c-1.14.95-2.8.95-3.93 0a.74.74 0 10-.95 1.14 4.54 4.54 0 005.83 0 .74.74 0 00-.47-1.32z" fill="#ff1f59"/></g></svg>
+
+<div id="socialline">
+    <a title="SoundCloud" href="https://soundcloud.com/dj-slax"><svg viewBox="0 0 69.65 50" xml:space="preserve"><path d="M42.07 9.46c-1.24 0-2.49.07-3.17.2-1.71.35-3.37 1-4.09 1.6-.19.17-.44.5-.55.75-.2.42-.2 1.08-.2 13.61 0 10.85.02 13.23.14 13.53.2.45.74.97 1.2 1.14.28.1 3.44.13 13.17.11 12.73-.02 12.8-.02 13.64-.26 3.56-1 6.01-3.24 7.08-6.44.33-.98.35-1.14.36-2.7 0-1.4-.03-1.79-.25-2.52a9.57 9.57 0 0 0-11.45-6.75c-.2.06-.26-.08-.63-1.24a15.18 15.18 0 0 0-3.9-6.38 15.9 15.9 0 0 0-8.22-4.44c-.65-.14-1.89-.2-3.13-.2zm-11.73 4.37c-.34 0-.81.47-.81.8l-.22 3.34c-.6 8.62-.58 14.49.07 20.3.13 1.25.23 1.69.39 1.9.27.34.85.37 1.13.06.2-.24.35-1.17.69-4.43.28-2.75.28-11.47 0-15.34-.43-5.93-.46-6.2-.74-6.43a.97.97 0 0 0-.51-.2zm-9.6 2.22a.81.81 0 0 0-.54.24c-.27.24-.28.32-.5 2.9-.36 4.38-.44 6.27-.44 10.03 0 3.64.1 5.82.39 8.4.24 2.18.28 2.39.5 2.61.27.27.9.27 1.13.01.2-.21.5-2.36.76-5.43.2-2.38.17-9.3-.06-12.48-.35-4.68-.48-5.74-.75-6.03a.68.68 0 0 0-.5-.25zm4.76.76c-.58 0-.79.3-.87 1.25-.75 8.28-.78 14.26-.12 20.22.18 1.6.25 1.85.57 2.04.55.32 1.1-.03 1.25-.77.05-.27.16-1.19.26-2.04a91.4 91.4 0 0 0-.23-19.7c-.08-.71-.33-1-.86-1zm-9.61 1.46c-.25 0-.5.12-.65.35-.16.24-.4 2.07-.64 4.98-.18 2.2-.18 9.55 0 11.7.2 2.26.45 4.48.54 4.63l.23.32c.24.27.76.24 1.06-.06.27-.27.33-.65.69-4.11.23-2.3.32-8.65.16-11.2-.19-2.95-.54-5.98-.73-6.27a.77.77 0 0 0-.66-.34zm-9.68 4.4c-.2 0-.4.08-.57.24-.27.28-.5 1.55-.75 4.12a73.3 73.3 0 0 0 .17 9.21l.25 2.2c.06.54.14.78.33.97.37.38 1.04.33 1.26-.08.17-.33.64-4.33.79-6.7.15-2.6 0-5.51-.4-7.9-.2-1.21-.31-1.58-.51-1.8a.8.8 0 0 0-.57-.26zm4.79.78a.82.82 0 0 0-.47.2c-.34.27-.7 2.35-.9 5.06-.15 2.34-.02 5.4.4 9.18.22 2.06.27 2.26.5 2.45.33.27.6.26.94-.04.25-.22.3-.41.5-1.96.73-5.57.76-9.54.1-13.13-.19-.97-.3-1.32-.5-1.52a.76.76 0 0 0-.57-.24zM1.38 25.3c-.63 0-.81.3-1.12 1.85A14.6 14.6 0 0 0 0 30.78c0 2.02.04 2.54.31 4.08.24 1.36.36 1.83.54 2.02a.8.8 0 0 0 .5.25c.53 0 .73-.39 1.05-2.1.68-3.66.68-5.97-.03-8.43-.3-1.08-.46-1.29-.99-1.29z" style="isolation:auto; mix-blend-mode:normal; color:#000; opacity:1" color="#000" overflow="visible" fill="#fff" fill-rule="evenodd"/></svg></a>
+    
+    <a title="Bandcamp" href="https://slax23.bandcamp.com"><svg viewBox="0 0 69.65 50"><path  d="M24.53 8.57L6.86 41.37l38.26.06 17.67-32.8z" style="isolation:auto; mix-blend-mode:normal; color:#000; opacity:1" color="#000" overflow="visible" fill="#fff" fill-rule="evenodd"/></svg></a>
+    
+    <a title="Twitter" href="https://twitter.com/slax23"><svg viewBox="0 0 69.65 50"><path d="M46.95 0A12.63 12.63 0 0035.5 6.63c-1.14 2.16-1.45 3.52-1.43 6.31.01 2.82.3 2.66-3.63 2-7.43-1.27-15-5.3-20.03-10.7-1.1-1.17-1.97-1.9-2.1-1.76-.64.66-1.38 3.27-1.5 5.32-.24 3.97.9 7.16 3.49 9.82l1.4 1.44-.98-.18c-.54-.1-1.68-.46-2.53-.8a7.36 7.36 0 00-1.64-.54 14.42 14.42 0 003.15 8.65 13.38 13.38 0 005.08 3.46l1.38.49-1.32.17c-.73.1-1.92.1-2.64 0l-1.33-.17.43 1.01a13.13 13.13 0 005.03 6.12c1.38.87 4.12 1.8 5.36 1.8l.82.01-.65.52c-1.28 1.03-6.43 3.38-8.6 3.94-1.7.44-3.02.58-5.67.6-1.9 0-3.46.1-3.46.2 0 .4 7 3.6 9.26 4.24a38.62 38.62 0 0014.73 1.16c10.47-1.28 19.12-6.5 24.8-14.96a36.49 36.49 0 006.4-19.07l.15-3.17 1.3-1c1.3-.98 4.07-4.01 4.62-5.04.36-.66.12-.67-1.49-.04-.68.27-2 .66-2.94.87l-1.7.39 1.6-1.6c1.4-1.4 3.43-4.73 3.09-5.07a12 12 0 00-2.4.95 28.89 28.89 0 01-3.92 1.48l-1.64.43-1.23-1.03A12.5 12.5 0 0046.95 0z" style="isolation:auto; mix-blend-mode:normal; color:#000; opacity:1" color="#000" overflow="visible" fill="#fff" fill-rule="evenodd"/></svg></a>
+
+    <a title="YouTube" href="https://www.youtube.com/c/Slax23"><svg viewBox="0 0 69.65 50"><path d="M34.82.53C24.56.53 21.6.6 16.2.95c-4.52.29-7.76.68-8.93 1.07a9.06 9.06 0 00-5.72 5.7C1 9.27.4 13.84.12 18.39c-.1 1.8-.1 11.41 0 13.2.28 4.56.88 9.12 1.42 10.68a9.06 9.06 0 005.72 5.7c1.97.66 7.78 1.13 18.35 1.47 2.24.07 20.6-.03 22.73-.13 7.5-.34 12.47-.81 14.03-1.34a9.06 9.06 0 005.74-5.7c.54-1.56 1.14-6.12 1.42-10.67.1-1.8.1-11.42 0-13.2-.28-4.56-.88-9.13-1.42-10.68a9.06 9.06 0 00-5.73-5.7c-1.16-.4-4.4-.78-8.92-1.07C48.04.6 45.09.53 34.82.53zm-6.98 14.3a196.49 196.49 0 012.73 1.56l2.26 1.28a503.32 503.32 0 006.14 3.48 372.81 372.81 0 004.5 2.57l1.56.87.73.4-.63.35a1308.56 1308.56 0 01-12.3 6.98 510.63 510.63 0 01-5 2.83c-.04.02-.07-4.55-.07-10.16 0-5.6.03-10.17.08-10.15z" style="isolation:auto; mix-blend-mode:normal; color:#000; opacity:1" color="#000" overflow="visible" fill="#fff" fill-rule="evenodd"/></svg></a>
+    
+</div> 
+
+<h1 class="tilt" id="h1sp">SPOTLIGHT</h1>  
+<div class="tilt" id="floor"> 
+
+    <div class="sp" id="sp_left"> 
+        <a href="https://soundcloud.com/dj-slax/bocchi-the-core">
+        <img alt="" src="https://f4.bcbits.com/img/a2511444041_4.jpg">
+        <span>Bocchi the Core!</span></a></div>
+    <div class="sp" id="sp_mid2">
+        <a href="https://youtu.be/7jwnNRErcTw">
+        <img alt="" src="meli_on_za_train_3_6.gif"> 
+        <span>#TSUNGEDDON</span></a></div> 
+    <div class="sp" id="sp_right">  
+        <a href="https://soundcloud.com/dj-slax/lovesickore">
+        <img alt="" src="https://f4.bcbits.com/img/a2707733774_4.jpg">
+        <span>Lovesickore</span></a></div>
+</div>   
+<div id="works">  
+<h1 class="tilt" id="h1works">WORKS</h1>
+<h2 class="tilt">2023</h2><!--------------------------------------------------->
+    
+    <div> 
+        <a href="https://slax23.bandcamp.com/track/fancy-not-fancy">
+        <img alt="" src="https://f4.bcbits.com/img/a0818039344_3.jpg" loading="lazy">
+        <span class="spancont"><span>Fancy Not Fancy</span></span></a></div>
+     <div> 
+        <a href="https://slax23.bandcamp.com/track/genjitsu-mysterium-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a0427059707_3.jpg" loading="lazy">
+        <span class="spancont"><span>Aqours - Genjitsu Mysterium (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/bimbo-limbo">
+        <img alt="" src="https://f4.bcbits.com/img/a2125132078_3.jpg" loading="lazy"> 
+        <span class="spancont"><span>Bimbo Limbo</span></span></a></div>
+    <div> 
+        <a href="https://slax23.bandcamp.com/track/love-lie">
+        <img alt="" src="https://f4.bcbits.com/img/a2092399150_3.jpg" loading="lazy">
+        <span class="spancont"><span>Love Lie</span></span></a></div>
+    <div> 
+        <a href="https://slax23.bandcamp.com/track/loli-dive">
+        <img alt="" src="https://f4.bcbits.com/img/a1405969346_3.jpg" loading="lazy">
+        <span class="spancont"><span>Loli Dive</span></span></a></div>
+
+<h2 class="tilt">2022</h2><!--------------------------------------------------->
+     
+    <div> 
+        <a href="https://slax23.bandcamp.com/track/bocchi-the-core">
+        <img alt="" src="https://f4.bcbits.com/img/a2511444041_3.jpg" loading="lazy">
+        <span class="spancont"><span>Bocchi the Core!</span></span></a></div>
+    <div> 
+        <a href="https://slax23.bandcamp.com/track/rebecca">
+        <img alt="" src="https://f4.bcbits.com/img/a0410451739_3.jpg" loading="lazy">
+        <span class="spancont"><span>Rebecca</span></span></a></div>
+    <div> 
+        <a href="https://slax23.bandcamp.com/track/lolly-tomboy">
+        <img alt="" src="https://f4.bcbits.com/img/a0668834739_3.jpg" loading="lazy">
+        <span class="spancont"><span>Lolly Tomboy</span></span></a></div>
+    <div> 
+        <a href="https://slax23.bandcamp.com/track/giri-the-giri">
+        <img alt="" src="https://f4.bcbits.com/img/a3878033871_3.jpg" loading="lazy">
+        <span class="spancont"><span>Giri The Giri</span></span></a></div>
+     <div>
+        <a href="https://lossokarecords.bandcamp.com/album/genocide-afterparty">
+        <img alt="" src="https://f4.bcbits.com/img/a3728753337_3.jpg" loading="lazy">
+        <span class="spancont"><span>Scarlet Luminance</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/lovesickore">
+        <img alt="" src="https://f4.bcbits.com/img/a2707733774_3.jpg" loading="lazy">
+        <span class="spancont"><span>Lovesickore</span></span></a></div>
+    <div>
+        <a href="https://lostfrog.bandcamp.com/album/night-from-the-core">
+        <img alt="" src="https://f4.bcbits.com/img/a2141346178_3.jpg" loading="lazy">
+        <span class="spancont"><span>Kazusa</span></span></a></div>
+    <div>
+        <a href="https://tsundereviolence.bandcamp.com/album/10-years-of-tsundere-violence-the-compilation">
+        <img alt="" src="https://f4.bcbits.com/img/a3067256149_3.jpg" loading="lazy">
+        <span class="spancont"><span>Lunaticon</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/baka-paka">
+        <img alt="" src="https://f4.bcbits.com/img/a2600808983_3.jpg" loading="lazy">
+        <span class="spancont"><span>Baka Paka</span></span></a></div>
+        
+<h2 class="tilt">2021</h2><!--------------------------------------------------->
+
+    <div>
+        <a href="https://hellfurycompilations.bandcamp.com/album/melodic-invasion">
+        <img alt="" src="https://f4.bcbits.com/img/a0012754987_3.jpg" loading="lazy">
+        <span class="spancont"><span>Multidimensional Bliss</span></span></a></div>
+    <div> 
+        <a href="https://lossokarecords.bandcamp.com/album/genocide-party-2">
+        <img alt="" src="https://f4.bcbits.com/img/a4034758978_3.jpg" loading="lazy">
+        <span class="spancont"><span>Shimarin</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/loli-bomb">
+        <img alt="" src="https://f4.bcbits.com/img/a0801742562_3.jpg" loading="lazy">
+        <span class="spancont"><span>Loli Bomb</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/mago-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a0852352277_3.jpg" loading="lazy">
+        <span class="spancont"><span>GFRIEND - MAGO (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/exterminate-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a1967172642_3.jpg" loading="lazy">
+        <span class="spancont"><span>Nana Mizuki - Exterminate (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/lolitonic">
+        <img alt="" src="https://f4.bcbits.com/img/a1987738441_3.jpg" loading="lazy">
+        <span class="spancont"><span>Lolitonic</span></span></a></div>
+    <div>
+        <a href="https://soundcloud.com/dj-slax/ailane-showdown">
+        <img alt="" src="https://f4.bcbits.com/img/a1327690532_3.jpg" loading="lazy">
+        <span class="spancont"><span>Ailane Showdown</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/shimmer">
+        <img alt="" src="https://f4.bcbits.com/img/a4147059524_3.jpg" loading="lazy">
+        <span class="spancont"><span>Shimmer</span></span></a></div>
+        
+<h2 class="tilt">2020</h2><!--------------------------------------------------->
+
+    <div>
+        <a href="https://slax23.bandcamp.com/track/more-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a1236790686_3.jpg" loading="lazy">
+        <span class="spancont"><span>K/DA - MORE (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/album/instrumentals-vol-1">
+        <img alt="" src="https://f4.bcbits.com/img/a3114250896_3.jpg" loading="lazy">
+        <span class="spancont"><span>Instrumentals Vol. 1</span></span></a></div>
+    <div>
+        <a href="https://soundcloud.com/dj-slax/majestic-teasing">
+        <img alt="" src="https://f4.bcbits.com/img/a2335123280_3.jpg" loading="lazy">
+        <span class="spancont"><span>Majestic Teasing</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/lolipon">
+        <img alt="" src="https://f4.bcbits.com/img/a2758860485_3.jpg" loading="lazy">
+        <span class="spancont"><span>Lolipon</span></span></a></div>
+    <div>
+        <a href="https://touitsurecordings.bandcamp.com/album/tir014-anicore-5">
+        <img alt="" src="https://f4.bcbits.com/img/a0928510556_3.jpg" loading="lazy">
+        <span class="spancont"><span>Awaken Your Power</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/maybe-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a3064972460_3.jpg" loading="lazy">
+        <span class="spancont"><span>Emma Bunton - Maybe (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/blight-my-name">
+        <img alt="" src="https://f4.bcbits.com/img/a0603148540_3.jpg" loading="lazy">
+        <span class="spancont"><span>Blight My Name</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/i-got-it-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a1476510224_3.jpg" loading="lazy">
+        <span class="spancont"><span>Mia REGINA - I got it! (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/too-much-loli">
+        <img alt="" src="https://f4.bcbits.com/img/a0177368097_3.jpg" loading="lazy">
+        <span class="spancont"><span>Too Much Loli</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/starlight">
+        <img alt="" src="https://f4.bcbits.com/img/a0765508924_3.jpg" loading="lazy">
+        <span class="spancont"><span>Starlight✰</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/yu-no">
+        <img alt="" src="https://f4.bcbits.com/img/a1350295833_3.jpg" loading="lazy">
+        <span class="spancont"><span>YU-NO</span></span></a></div>
+        
+<h2 class="tilt">2019</h2><!--------------------------------------------------->
+
+    <div>
+        <a href="https://slax23.bandcamp.com/track/binetsu-kara-mystery-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a2852395256_3.jpg" loading="lazy">
+        <span class="spancont"><span>lily white - Binetsu kara Mystery (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/album/90s-girly-tekno-beat-ep">
+        <img alt="" src="https://f4.bcbits.com/img/a2984315398_3.jpg" loading="lazy">
+        <span class="spancont"><span>90's Girly Tekno Beat EP</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/connected-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a4005497102_3.jpg" loading="lazy">
+        <span class="spancont"><span>Tilarna Exedilika - Connected (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/date-a-mess">
+        <img alt="" src="https://f4.bcbits.com/img/a2947555698_3.jpg" loading="lazy">
+        <span class="spancont"><span>Date A Mess</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/mimika-euphorica">
+        <img alt="" src="https://f4.bcbits.com/img/a4193521792_3.jpg" loading="lazy">
+        <span class="spancont"><span>Mimika Euphorica</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/tokyo-7th-siscon">
+        <img alt="" src="https://f4.bcbits.com/img/a2813899657_3.jpg" loading="lazy">
+        <span class="spancont"><span>Tokyo 7th Siscon</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/believe-again-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a4205264424_3.jpg" loading="lazy">
+        <span class="spancont"><span>Saint Snow - Believe Again (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/cosmo-lumina-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a0565762521_3.jpg" loading="lazy">
+        <span class="spancont"><span>Ueno-san - Cosmo Lumina (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/rightfully-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a3134203705_3.jpg" loading="lazy">
+        <span class="spancont"><span>Mili - Rightfully (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://4xxxtekrecords.bandcamp.com/album/not-otaku-hardtek-compilation-free-link-of-googledrive-at-the-bottom">
+        <img alt="" src="https://f4.bcbits.com/img/a0377638384_3.jpg" loading="lazy">
+        <span class="spancont"><span>discotekNostalgia</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/touch-off-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a0571185806_3.jpg" loading="lazy">
+        <span class="spancont"><span>UVERworld - Touch off (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/adabana-necromancy-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a3764740181_3.jpg" loading="lazy">
+        <span class="spancont"><span>FranChouChou - Adabana Necromancy (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/nageki-no-hana-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a3648082161_3.jpg" loading="lazy">
+        <span class="spancont"><span>Nana Mizuki - Nageki no Hana (Slax&nbsp;Remix)</span></span></a></div>
+    
+<h2 class="tilt">2018</h2><!--------------------------------------------------->
+        
+    <div>
+        <a href="https://slax23.bandcamp.com/track/pop-stars-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a1068748263_3.jpg" loading="lazy">
+        <span class="spancont"><span>K/DA - POP/STARS (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/omoi-yo-hitotsu-ni-nare-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a4056549755_3.jpg" loading="lazy">
+        <span class="spancont"><span>Aqours - Omoi yo Hitotsu ni Nare (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/oneness-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a0767180159_3.jpg" loading="lazy">
+        <span class="spancont"><span>Roselia - ONENESS (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/cherry">
+        <img alt="" src="https://f4.bcbits.com/img/a3698905250_3.jpg" loading="lazy">
+        <span class="spancont"><span>Cherry</span></span></a></div>
+    <div>
+        <a href="https://hellfurycompilations.bandcamp.com/album/melodic-strike">
+        <img alt="" src="https://f4.bcbits.com/img/a3697998111_3.jpg" loading="lazy">
+        <span class="spancont"><span>Maiden Melodica</span></span></a></div>
+    <div>
+        <a href="http://beatmaniauet.sakura.ne.jp/Construction_02/">
+        <img alt="" src="https://i1.sndcdn.com/artworks-000364324677-w41uos-t120x120.jpg" loading="lazy">
+        <span class="spancont"><span>Cutening</span></span></a></div>
+    <div>
+        <a href="https://www.dropbox.com/s/m0gok55fps2b9lx/Slax%20feat.%20Airi%20Aisu%20-%20Let%27s%20Go%20Out.wav?dl=0">
+        <img alt="" src="https://i1.sndcdn.com/artworks-000283170557-biy2sb-t120x120.jpg" loading="lazy">
+        <span class="spancont"><span>Let's Go Out (feat.&nbsp;Airi&nbsp;Aisu)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/nero">
+        <img alt="" src="https://f4.bcbits.com/img/a0895151513_3.jpg" loading="lazy">
+        <span class="spancont"><span>Nero</span></span></a></div>
+    <div>
+        <a href="https://soundcloud.com/dj-slax/jerome-domination-slax-bootleg-mix">
+        <img alt="" src="https://i1.sndcdn.com/artworks-000299196582-2qwwgj-t120x120.jpg" loading="lazy">
+        <span class="spancont"><span>Jerome - Domination (Slax&nbsp;Bootleg&nbsp;Mix)</span></span></a></div>
+        
+<h2 class="tilt">2017</h2><!--------------------------------------------------->
+
+    <div>
+        <a href="https://slax23.bandcamp.com/track/psychic-fire-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a4154630004_3.jpg" loading="lazy">
+        <span class="spancont"><span>BiBi - Psychic Fire (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/hana">
+        <img alt="" src="https://f4.bcbits.com/img/a0286755340_3.jpg" loading="lazy">
+        <span class="spancont"><span>Hana</span></span></a></div>
+    <div>
+        <a href="https://touitsurecordings.bandcamp.com/album/tir013-anicore-4">
+        <img alt="" src="https://f4.bcbits.com/img/a2403771702_3.jpg" loading="lazy">
+        <span class="spancont"><span>We'll Be Stars (2015)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/sugar-loli">
+        <img alt="" src="https://f4.bcbits.com/img/a3409839328_3.jpg" loading="lazy">
+        <span class="spancont"><span>Sugar Loli</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/toki-no-mukou-maboroshi-no-sora-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a2113331490_3.jpg" loading="lazy">
+        <span class="spancont"><span>FictionJunction - Toki no Mukou Maboroshi no Sora (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/renai-boukun-op-cover-remix-feat-airi-aisu">
+        <img alt="" src="https://f4.bcbits.com/img/a1150305226_3.jpg" loading="lazy">
+        <span class="spancont"><span>Renai Boukun OP Cover Remix (feat.&nbsp;Airi&nbsp;Aisu)</span></span></a></div>
+    <div>
+        <a href="https://luckylotus.bandcamp.com/album/summertime-dreams">
+        <img alt="" src="https://f4.bcbits.com/img/a2463420307_3.jpg" loading="lazy">
+        <span class="spancont"><span>Red Riding Hood / Aozora No Rhapsody</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/atomic-dropper-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a4072683678_3.jpg" loading="lazy">
+        <span class="spancont"><span>dotη - Atomic Dropper (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/legne-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a2167433749_3.jpg" loading="lazy">
+        <span class="spancont"><span>Ranko Kanzaki - LEGNE (Slax&nbsp;Remix)</span></span></a></div>
+        
+<h2 class="tilt">2016</h2><!--------------------------------------------------->
+
+    <div>
+        <a href="https://slax23.bandcamp.com/album/we-are-number-one-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a0430337302_3.jpg" loading="lazy">
+        <span class="spancont"><span>Robbie Rotten - We Are Number One (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/strawberry-trapper-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a2995983931_3.jpg" loading="lazy">
+        <span class="spancont"><span>Guilty Kiss - Strawberry Trapper (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/mirai-fanfare-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a2857172102_3.jpg" loading="lazy">
+        <span class="spancont"><span>Nagarekawa Girls - Mirai Fanfare (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://luckylotus.bandcamp.com/album/journey-to-the-stars">
+        <img alt="" src="https://f4.bcbits.com/img/a1977502402_3.jpg" loading="lazy">
+        <span class="spancont"><span>Deflowering</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/mtc-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a2069234649_3.jpg" loading="lazy">
+        <span class="spancont"><span>S3RL - MTC (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/cutie-panther-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a3428079432_3.jpg" loading="lazy">
+        <span class="spancont"><span>BiBi - Cutie Panther (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/tsubomi-yumemiru-rapsodia-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a4002952716_3.jpg" loading="lazy">
+        <span class="spancont"><span>Ranko Kanzaki - Tsubomi Yumemiru Rapsodia (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="http://dochakuso.web.fc2.com/release/dcks-0026.html">
+        <img alt="" src="https://i1.sndcdn.com/artworks-000142841333-uupvit-t120x120.jpg" loading="lazy">
+        <span class="spancont"><span>Lovetek Marginal</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/arifureta-kanashimi-no-hate-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a2080390894_3.jpg" loading="lazy">
+        <span class="spancont"><span>Eli Ayase - Arifureta Kanashimi No Hate (Slax&nbsp;Remix)</span></span></a></div>
+        
+<h2 class="tilt">2015</h2><!--------------------------------------------------->
+        
+    <div>
+        <a href="https://slax23.bandcamp.com/track/zurui-yo-magnetic-today-slax-remix">
+        <img alt="" src="https://f4.bcbits.com/img/a2635655572_3.jpg" loading="lazy">
+        <span class="spancont"><span>μ's - Zurui yo Magnetic Today (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://kyokudocorerecords.bandcamp.com/album/kcrfree006-v-a-back-2-the-oldskool">
+        <img alt="" src="https://f4.bcbits.com/img/a1888212739_3.jpg" loading="lazy">
+        <span class="spancont"><span>Water Slide</span></span></a></div>
+    <div>
+        <a href="https://soundcloud.com/dj-slax/slax-melissa">
+        <img alt="" src="https://i1.sndcdn.com/artworks-000134036427-ym5xud-t120x120.jpg" loading="lazy">
+        <span class="spancont"><span>Melissa</span></span></a></div>
+    <div>
+        <a href="https://www.dropbox.com/s/42zm1u68es67n6m/Slax%20-%20Yomiyama%20Syndrome.mp3?dl=0">
+        <img alt="" src="yomiyama_syndrome_site_jpeg.jpg" loading="lazy">
+        <span class="spancont"><span>Yomiyama Syndrome</span></span></a></div>
+    <div>
+        <a href="https://soundcloud.com/slax23/loli-marginal">
+        <img alt="" src="https://i1.sndcdn.com/artworks-u3qzbDzg6jNgXAmk-VLwPXw-t120x120.jpg" loading="lazy">
+        <span class="spancont"><span>Loli Marginal</span></span></a></div>
+    <div>
+        <a href="http://radioactivehardcore.blog.fc2.com/blog-entry-53.html">
+        <img alt="" src="https://i1.sndcdn.com/artworks-000129296481-gmbqqc-t120x120.jpg" loading="lazy">
+        <span class="spancont"><span>Loli Relations</span></span></a></div>
+    <div>
+        <a href="https://slax23.bandcamp.com/track/himouto-umaru-chan-op-cover-remix-feat-miiko">
+        <img alt="" src="https://f4.bcbits.com/img/a1071692352_3.jpg" loading="lazy">
+        <span class="spancont"><span>Himouto! Umaru-chan OP Cover Remix (feat.&nbsp;Miiko)</span></span></a></div>
+    <div>
+        <a href="https://luckylotus.bandcamp.com/album/lucky-lotus-volume-2">
+        <img alt="" src="https://f4.bcbits.com/img/a3560266710_3.jpg" loading="lazy">
+        <span class="spancont"><span>Chemical Reaction</span></span></a></div>
+    <div>
+        <a href="https://soundcloud.com/slax23/vau-boy-video-game-girl-slax-remix">
+        <img alt="" src="https://i1.sndcdn.com/artworks-eWqWJI5XvuLTOOM7-y2av6w-t120x120.jpg" loading="lazy">
+        <span class="spancont"><span>Vau Boy - Video Game Girl (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="https://soundcloud.com/dj-slax/hixxy-technikore-home-alone-slax-bootleg-mix">
+        <img alt="" src="https://i1.sndcdn.com/artworks-000261516800-1908jw-t120x120.jpg" loading="lazy">
+        <span class="spancont"><span>Hixxy & Technikore - Home Alone (Slax Bootleg Mix)</span></span></a></div>
+    <div>
+        <a href="https://soundcloud.com/dj-slax/slax-feat-miiko-bokura-wa-ima-no-naka-de-love-live-op">
+        <img alt="" src="https://i1.sndcdn.com/artworks-000118777895-yhxo08-t120x120.jpg" loading="lazy">
+        <span class="spancont"><span>Bokura Wa Ima No Naka De (feat.&nbsp;Miiko)</span></span></a></div>
+    <div>
+        <a href="https://soundcloud.com/dj-slax/mochipet-psilocybin-samurai-slax-remix">
+        <img alt="" src="https://i1.sndcdn.com/artworks-000113156734-v3296y-t120x120.jpg" loading="lazy">
+        <span class="spancont"><span>Mochipet - Psilocybin Samurai (Slax&nbsp;Remix)</span></span></a></div>
+    <div>
+        <a href="http://radioactivehardcore.blog.fc2.com/blog-entry-51.html">
+        <img alt="" src="https://i1.sndcdn.com/artworks-000112332422-a1paf6-t120x120.jpg" loading="lazy">
+        <span class="spancont"><span>Bakemono Energy Drink</span></span></a></div>
+    <div>
+        <a href="https://soundcloud.com/dj-slax/noucome-slax-remix">
+        <img alt="" src="https://i1.sndcdn.com/artworks-000113087999-yo75kx-t120x120.jpg" loading="lazy">
+        <span class="spancont"><span>Noucome OP 1 - S.M.L☆ (Slax Happy J-core Bootleg Continuous Mix)</span></span></a></div>
+    <div> 
+        <a href="https://soundcloud.com/dj-slax/slax-inability-to-make-choices">
+        <img alt="" src="https://i1.sndcdn.com/artworks-000109808293-r7um5o-t120x120.jpg" loading="lazy">
+        <span class="spancont"><span>Inability To Make Choices</span></span></a></div>
+    <div> 
+        <a href="https://soundcloud.com/slax23/slax-hardcore-ballet">
+        <img alt="" src="https://i1.sndcdn.com/artworks-000660864160-lgdeus-t120x120.jpg" loading="lazy">
+        <span class="spancont"><span>Hardcore Ballet</span></span></a></div>
+        
+<h2 class="tilt">2014</h2><!--------------------------------------------------->
+   
+    <div>
+        <a href="https://www.dropbox.com/s/qh637f3ctom8szm/Slax%20-%20Undeniable%20Truth%20%28Original%20Mix%29.mp3?dl=0">
+        <img alt="" src="undeniable_truth_jpeg.jpg" loading="lazy">
+        <span class="spancont"><span>Undeniable Truth</span></span></a></div>
+    <div>
+        <a href="https://www.dropbox.com/s/l49jluym7ob28d3/Eir%20Aoi%20-%20Sirius%20%28Slax%20Happy%20Hardcore%20Bootleg%20Mix%29.mp3?dl=0">
+        <img alt="" src="kill_la_kill_remix_site_jpeg.jpg" loading="lazy">
+        <span class="spancont"><span>Eir Aoi - Sirius (Slax Happy Hardcore Bootleg Mix)</span></span></a></div> 
+ 
+<h2 class="tilt">2013</h2><!--------------------------------------------------->
+ 
+    <div>
+        <a href="https://www.dropbox.com/s/4bvax1ouan7ns6g/Slax%20-%20Murder%20At%20The%20Disco.mp3?dl=0">
+        <img alt="" src="matd_jpeg.jpg" loading="lazy">
+        <span class="spancont"><span>Murder At The Disco</span></span></a></div>
+
+</div>
+ 
+<div id="about">
+<h1 class="tilt">ABOUT</h1>
+
+    <div><span>Amateur electronic music producer, generally focused on fast-paced melodic tracks.</span></div>
+    <div><span>Loving full and saturated sounds, with catchy and energetic vibes.</span></div>
+    <div><span>Remixing and sampling for fun, always bless original music artists ❤</span></div>
+
+<h2 class="tilt">MAIL</h2>
+<div id="mail"><span>slaxsound</span><svg viewBox="0 0 21.24 21.24"><path d="M5.45 1.4c-.07 0-.11 0-.14.02-.45.26-.69 5.96-.9 6.44-.21.47-4.29 4.46-4.18 4.97.11.5 5.46 2.5 5.84 2.84.39.35 2.92 5.46 3.44 5.51.52.06 4.06-4.41 4.5-4.67.46-.26 6.1-1.1 6.31-1.57.22-.47-2.94-5.22-3.05-5.73-.1-.51.84-6.13.46-6.48-.39-.35-5.88 1.19-6.4 1.13-.48-.05-4.96-2.38-5.88-2.45z" fill="#ffffff" fill-rule="evenodd"/></svg></span><span> gmail.com</span></div>
+</div>
+ 
+<div id="bottom"><svg aria-labelledby="SlaxLogo" role="img" viewBox="0 0 100 100"><g stroke-width="1.32" fill-rule="evenodd"><path d="M100 50c0 27.7-22.3 50-50 50S0 77.7 0 50 22.3 0 50 0s50 22.3 50 50z" style="isolation:auto;mix-blend-mode:normal;color:#000;opacity:1" color="#000" overflow="visible" fill="#fff" paint-order="stroke fill markers"/><path d="M50 8.97A40.97 40.97 0 009.04 49.92 40.73 40.73 0 0019.4 77.13h3.08l-.42-.38A38.7 38.7 0 0150 11.2a38.72 38.72 0 0137.2 27.94l.14.46 2-1.15-.1-.28A40.99 40.99 0 0050 8.97zm3.29 27.2V57.17H25.06l1.3 2.24H55.51V44.46l8.24 14.28.38.65h10.8l-1.3-2.23h-8.23L55.38 39.7l-.13-.16zm22.73 5.48c-.05 0-.08 0-.1.02-.35.19-.56 4.5-.72 4.86-.16.35-3.27 3.35-3.19 3.74.08.38 4.11 1.91 4.4 2.18.3.26 2.18 4.14 2.57 4.18.4.05 3.1-3.31 3.44-3.5.34-.2 4.61-.8 4.78-1.16.16-.36-2.2-3.97-2.28-4.35-.08-.39.67-4.63.38-4.9-.3-.26-4.45.87-4.85.82-.36-.04-3.73-1.82-4.43-1.89zM29.6 63.95l.13.22.18.3 1.47 2.56h5.25v3.87a3.97 3.97 0 107.96 0v-3.87h.27a1.54 1.54 0 100-3.08H30.56zm24.57 0l.13.22.18.3 1.47 2.56h5.25v3.87a3.97 3.97 0 107.96 0v-3.87h.27a1.54 1.54 0 100-3.08H55.13zm0 17.63a.74.74 0 00-.48.18c-1.14.95-2.8.95-3.93 0a.74.74 0 10-.95 1.14 4.54 4.54 0 005.83 0 .74.74 0 00-.47-1.32z" fill="#ff1f59"/></g></svg><span>© Copyright is joke</span></div>
+</body>
+</html>
